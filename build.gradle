@@ -6,4 +6,8 @@ android {
         java.srcDirs = ['src']
         res.srcDirs = ['res']
     }
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 17
+    }
 }
